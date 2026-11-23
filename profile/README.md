@@ -16,9 +16,9 @@ Mythos is built as a multi-repository ecosystem, separating the engine, the inte
 
 | Repository | What it is | Built with |
 | --- | --- | --- |
-| [`mythoside-core`](https://github.com/Mythos-IDE/mythoside-core) | The engine — manuscript data model, Markdown + YAML file format, file watching, and a JSON-RPC server over stdio (no network port). | Rust |
-| [`mythoside-ts`](https://github.com/Mythos-IDE/mythoside-ts) | The desktop client — the editor surface, hosting the engine as a sidecar. | Tauri · React · TypeScript |
-| [`mythoside-website`](https://github.com/Mythos-IDE/mythoside-website) | The landing page and product story. | Vite · React |
+| [`mythoside-core`](https://github.com/mythoside/mythoside-core) | The engine — manuscript data model, Markdown + YAML file format, file watching, and a JSON-RPC server over stdio (no network port). | Rust |
+| [`mythoside-ts`](https://github.com/mythoside/mythoside-ts) | The desktop client — the editor surface, hosting the engine as a sidecar. | Tauri · React · TypeScript |
+| [`mythoside-website`](https://github.com/mythoside/mythoside-website) | The landing page and product story. | Vite · React |
 
 ## Core philosophy
 
@@ -29,10 +29,10 @@ Mythos is built as a multi-repository ecosystem, separating the engine, the inte
 
 ## Get involved
 
-Early development. Follow along, star the repositories, or jump into [Discussions](https://github.com/Mythos-IDE/mythoside-core/discussions) if you're building epic-length fiction and want a say in how this shapes up.
+Early development. Follow along, star the repositories, or jump into [Discussions](https://github.com/mythoside/mythoside-core/discussions) if you're building epic-length fiction and want a say in how this shapes up.
 
-- **Issues & feature ideas** → [Core](https://github.com/Mythos-IDE/mythoside-core/issues) · [Desktop](https://github.com/Mythos-IDE/mythoside-ts/issues)
-- **General questions** → [Discussions](https://github.com/Mythos-IDE/mythoside-core/discussions)
+- **Issues & feature ideas** → [Core](https://github.com/mythoside/mythoside-core/issues) · [Desktop](https://github.com/mythoside/mythoside-ts/issues)
+- **General questions** → [Discussions](https://github.com/mythoside/mythoside-core/discussions)
 
 ## Contact
 

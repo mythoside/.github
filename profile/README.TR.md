@@ -16,9 +16,9 @@ Mythos; motoru, arayüzü ve siteyi birbirinden ayıran çoklu depo (multi-repo)
 
 | Depo | Nedir | Teknoloji |
 | --- | --- | --- |
-| [`mythoside-core`](https://github.com/Mythos-IDE/mythoside-core) | Motor — elyazması veri modeli, Markdown + YAML dosya formatı, dosya izleme ve stdio üzerinden bir JSON-RPC sunucusu (ağ portu yok). | Rust |
-| [`mythoside-ts`](https://github.com/Mythos-IDE/mythoside-ts) | Masaüstü istemcisi — motoru sidecar olarak barındıran editör yüzeyi. | Tauri · React · TypeScript |
-| [`mythoside-website`](https://github.com/Mythos-IDE/mythoside-website) | Tanıtım sayfası ve ürün hikâyesi. | Vite · React |
+| [`mythoside-core`](https://github.com/mythoside/mythoside-core) | Motor — elyazması veri modeli, Markdown + YAML dosya formatı, dosya izleme ve stdio üzerinden bir JSON-RPC sunucusu (ağ portu yok). | Rust |
+| [`mythoside-ts`](https://github.com/mythoside/mythoside-ts) | Masaüstü istemcisi — motoru sidecar olarak barındıran editör yüzeyi. | Tauri · React · TypeScript |
+| [`mythoside-website`](https://github.com/mythoside/mythoside-website) | Tanıtım sayfası ve ürün hikâyesi. | Vite · React |
 
 ## Temel Felsefe
 
@@ -29,10 +29,10 @@ Mythos; motoru, arayüzü ve siteyi birbirinden ayıran çoklu depo (multi-repo)
 
 ## Katkıda Bulunun
 
-Erken geliştirme aşaması. Gelişmeleri takip edin, depolara yıldız verin veya epik uzunlukta kurgu yazıyor ve bunun nasıl şekilleneceğinde söz sahibi olmak istiyorsanız [Discussions](https://github.com/Mythos-IDE/mythoside-core/discussions) bölümüne katılın.
+Erken geliştirme aşaması. Gelişmeleri takip edin, depolara yıldız verin veya epik uzunlukta kurgu yazıyor ve bunun nasıl şekilleneceğinde söz sahibi olmak istiyorsanız [Discussions](https://github.com/mythoside/mythoside-core/discussions) bölümüne katılın.
 
-- **Sorunlar ve özellik fikirleri** → [Core](https://github.com/Mythos-IDE/mythoside-core/issues) · [Desktop](https://github.com/Mythos-IDE/mythoside-ts/issues)
-- **Genel sorular** → [Discussions](https://github.com/Mythos-IDE/mythoside-core/discussions)
+- **Sorunlar ve özellik fikirleri** → [Core](https://github.com/mythoside/mythoside-core/issues) · [Desktop](https://github.com/mythoside/mythoside-ts/issues)
+- **Genel sorular** → [Discussions](https://github.com/mythoside/mythoside-core/discussions)
 
 ## İletişim
 

@@ -8,7 +8,7 @@
 
   <!-- eyebrow / masthead -->
   <text x="56" y="50" fill="#C9A24B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="3">LOCAL-FIRST WORLD DEVELOPMENT ENVIRONMENT</text>
-  <text x="1144" y="50" text-anchor="end" fill="#7E869A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">MYTHOS-IDE</text>
+  <text x="1144" y="50" text-anchor="end" fill="#7E869A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">MYTHOSIDE</text>
 
   <!-- title block (left) -->
   <text x="56" y="150" fill="#E8DFCB" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="600">Mythos</text>

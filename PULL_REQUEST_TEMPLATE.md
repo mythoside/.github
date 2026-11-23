@@ -20,7 +20,7 @@
 
 ## Checklist
 
-- [ ] I've read [CONTRIBUTING.md](https://github.com/Mythos-IDE/.github/blob/main/CONTRIBUTING.md)
+- [ ] I've read [CONTRIBUTING.md](https://github.com/mythoside/.github/blob/main/CONTRIBUTING.md)
 - [ ] For anything beyond a small fix, I opened an issue/discussion first
 - [ ] I've added/updated tests where it makes sense
 - [ ] I've updated documentation if user-facing behavior changed

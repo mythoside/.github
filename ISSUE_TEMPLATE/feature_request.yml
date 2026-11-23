@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Before opening a feature request, it's worth checking existing
-        [Discussions](https://github.com/Mythos-IDE/mythoside-core/discussions) — larger ideas (new panels, changes
+        [Discussions](https://github.com/mythoside/mythoside-core/discussions) — larger ideas (new panels, changes
         to the core file format, the free/Pro boundary) are usually easier to
         shape there before becoming a formal issue.
 
