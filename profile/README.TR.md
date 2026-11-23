@@ -1,38 +1,38 @@
-<div align="center">
-  <img src="assets/readme/hero.svg" alt="Mythos — roman yazarları için bir dünya geliştirme ortamı; süreklilik hatalarını bir derleyicinin bug yakaladığı gibi yakalar" width="100%">
-</div>
+<p align="center">
+  <img src="assets/readme/hero.svg" width="100%" alt="Mythos, romancılar için bir dünya geliştirme ortamı: Mythos işareti ve yanında bir serinin kitaplarını, bölümlerini ve bölümlerde geçen karakterleri gösteren bir grafik">
+</p>
 
-<p align="center"><a href="./README.md">English</a> · Türkçe</p>
+<p align="center">
+  <a href="https://mythoside.com">mythoside.com</a> · <a href="./README.md">English</a> · Türkçe
+</p>
 
-**Karmaşık dünyalar inşa eden romancılar için bir yazar IDE'si.**
+Mythos, uzun kurgu için, çoğunlukla bir seri yazanlar için bir masaüstü uygulaması. Kitaplar, bölümler, karakterler ve mekânlar kendi diskindeki klasörlerde, YAML frontmatter'lı düz Markdown dosyaları olarak yan yana durur. Uygulama hepsini birlikte okur; bir karakterin hangi bölümlerde geçtiğini bilir.
 
-Genel not alma araçlarının sınırlarını aşan ve geleneksel kelime işlemcileri seri uzunluğundaki dünya kurgusu için fazla düzensiz bulan fantastik, bilimkurgu ve epik kurgu yazarları için bir masaüstü uygulaması geliştiriyoruz. Şöyle düşünün: Scrivener'ın yapısal disiplini ile bir yazılım IDE'sinin bağlamsal zekâsının birleşimi.
+> **Erken geliştirme aşamasında.** Motor ve masaüstü uygulaması çalışıyor. Sıradaki iş süreklilik kontrolleri: örneğin Birinci Kitap'ta ölen bir karakterin İkinci Kitap'ta yeniden konuşmasını yakalamak.
 
-Mythos, tüm serinizi bir derleyicinin kod tabanını okuduğu gibi okur — böylece Birinci Kitap'ta ölen bir karakter, İkinci Kitap'ta ortam onu işaretlemeden usulca yeniden konuşamaz.
+## Repolar
 
-## Ekosistem
+| Repo | Ne işe yarar |
+| --- | --- |
+| [`mythoside-core`](https://github.com/mythoside/mythoside-core) | Rust ile yazılmış motor. Dosyalarını okur, yazar ve uygulamayla stdin/stdout üzerinden konuşur |
+| [`mythoside-ts`](https://github.com/mythoside/mythoside-ts) | İçinde yazdığın masaüstü uygulaması. Tauri, React ve TypeScript |
+| [`mythoside-website`](https://github.com/mythoside/mythoside-website) | Ürün sitesi, [mythoside.com](https://mythoside.com) |
 
-Mythos; motoru, arayüzü ve siteyi birbirinden ayıran çoklu depo (multi-repo) ekosistemi olarak inşa edilmiştir.
+## Nasıl kurulu
 
-| Depo | Nedir | Teknoloji |
-| --- | --- | --- |
-| [`mythoside-core`](https://github.com/mythoside/mythoside-core) | Motor — elyazması veri modeli, Markdown + YAML dosya formatı, dosya izleme ve stdio üzerinden bir JSON-RPC sunucusu (ağ portu yok). | Rust |
-| [`mythoside-ts`](https://github.com/mythoside/mythoside-ts) | Masaüstü istemcisi — motoru sidecar olarak barındıran editör yüzeyi. | Tauri · React · TypeScript |
-| [`mythoside-website`](https://github.com/mythoside/mythoside-website) | Tanıtım sayfası ve ürün hikâyesi. | Vite · React |
+- **Seri, kitap, bölüm.** Bir serinin yapısı hazır gelir. Bunun için bir taslak aracını ayarlaman gerekmez.
+- **Asıl kaynak senin dosyaların.** Her şey herhangi bir editörde açabileceğin, yedekleyebileceğin ya da sürüm kontrolüne koyabileceğin Markdown ve YAML. Planlanan arama dizini de yalnızca bu dosyalardan yeniden kurulan bir önbellek olacak.
+- **Ağ portu yok.** Motor uygulamanın alt süreci olarak çalışır ve yalnızca kendi stdin/stdout'u üzerinden konuşur. Bilgisayarındaki başka hiçbir şey ona ulaşamaz.
 
-## Temel Felsefe
+## Fiyat
 
-- **Notlar için değil, kurgu için** — kendiniz yapılandırmak zorunda kaldığınız bir sistem değil, yerleşik bir Seri → Kitap → Bölüm hiyerarşisi.
-- **Bağlamsal dünya inşası** — taslağınızdan ayrılmadan `@KarakterAdi` yazın ve anında bir profil kartı alın.
-- **Her zaman yerel öncelikli** — gerçek doğruluk kaynağı diskinizdeki düz Markdown + YAML üst verisidir. Romanınız bir sunucuya rehin değildir; anında çapraz referans için yerel bir SQLite (FTS5) indeksi, doğruluk kaynağı değil yeniden kurulabilir bir önbellek olarak planlanmaktadır.
-- **Tanılama olarak süreklilik** — ortam, dünya kurgusuna bir IDE'nin titizliğiyle yaklaşır: bir karaktere ölümünden sonra referans verin ya da onu aynı anda iki yere koyun, size söyler.
+Geliştirme süresince ücretsiz. 1.0 sürümüyle birlikte Mythos, bir yıllık güncellemeyi içeren tek seferlik bir satın alma olacak. Satın aldığın sürüm sonrasında da çalışmaya devam eder; bir yıl daha güncelleme almak isteğe bağlı. Kaynak kodu [FSL-1.1-ALv2](https://github.com/mythoside/mythoside-core/blob/main/LICENSE.md) ile açık kalır, yani kendin derlemek ücretsiz kalır.
 
-## Katkıda Bulunun
+## Katkıda bulun
 
-Erken geliştirme aşaması. Gelişmeleri takip edin, depolara yıldız verin veya epik uzunlukta kurgu yazıyor ve bunun nasıl şekilleneceğinde söz sahibi olmak istiyorsanız [Discussions](https://github.com/mythoside/mythoside-core/discussions) bölümüne katılın.
-
-- **Sorunlar ve özellik fikirleri** → [Core](https://github.com/mythoside/mythoside-core/issues) · [Desktop](https://github.com/mythoside/mythoside-ts/issues)
-- **Genel sorular** → [Discussions](https://github.com/mythoside/mythoside-core/discussions)
+- Hatalar ve fikirler: [motor issue'ları](https://github.com/mythoside/mythoside-core/issues) · [uygulama issue'ları](https://github.com/mythoside/mythoside-ts/issues)
+- Sorular ve geri bildirim: [Discussions](https://github.com/mythoside/mythoside-core/discussions)
+- Pull request'ten önce: [CONTRIBUTING.md](https://github.com/mythoside/.github/blob/main/CONTRIBUTING.md)
 
 ## İletişim
 
@@ -46,9 +46,4 @@ Erken geliştirme aşaması. Gelişmeleri takip edin, depolara yıldız verin ve
 | Hukuk | legal@mythoside.com |
 | Sosyal ve topluluk | social@mythoside.com |
 
-Güvenlik açıklarını lütfen özel olarak **security@mythoside.com** adresine bildirin — herkese açık bir issue açmayın.
-
----
-<div align="center">
-  <sub>Mythos Ekibi tarafından geliştirilen açık kaynaklı yazılım.</sub>
-</div>
+Güvenlik açıklarını herkese açık bir issue yerine özel olarak **security@mythoside.com** adresine bildir.

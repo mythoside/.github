@@ -1,54 +1,49 @@
-<div align="center">
-  <img src="assets/readme/hero.svg" alt="Mythos — a world development environment for novelists, catching a continuity error the way a compiler catches a bug" width="100%">
-</div>
+<p align="center">
+  <img src="assets/readme/hero.svg" width="100%" alt="Mythos, a world development environment for novelists: the Mythos mark beside a graph of a series, its books, chapters and the characters they mention">
+</p>
 
-<p align="center">English · <a href="./README.TR.md">Türkçe</a></p>
+<p align="center">
+  <a href="https://mythoside.com">mythoside.com</a> · English · <a href="./README.TR.md">Türkçe</a>
+</p>
 
-**A writer's IDE for novelists building complex worlds.**
+Mythos is a desktop app for long fiction, usually a series. Books, chapters, characters and places live side by side as plain Markdown files with YAML frontmatter, in folders on your own disk. The app reads them together, so it knows which chapters a character appears in.
 
-We're building a desktop app for fantasy, sci-fi, and epic fiction writers who outgrow generic note-taking tools and find traditional word processors too unstructured for series-length worldbuilding. Think: the structural discipline of Scrivener, merged with the contextual intelligence of a software IDE.
+> **Early development.** The engine and the desktop app run. Continuity checks, such as catching a character who died in Book One speaking again in Book Two, are being built next.
 
-Mythos reads your whole series the way a compiler reads a codebase — so a character who died in Book One can't quietly speak again in Book Two without the environment flagging it.
+## Repositories
 
-## The ecosystem
+| Repository | What it is |
+| --- | --- |
+| [`mythoside-core`](https://github.com/mythoside/mythoside-core) | The engine, in Rust. Reads and writes your files and talks to the app over stdin and stdout |
+| [`mythoside-ts`](https://github.com/mythoside/mythoside-ts) | The desktop app you write in. Tauri, React and TypeScript |
+| [`mythoside-website`](https://github.com/mythoside/mythoside-website) | The product site, [mythoside.com](https://mythoside.com) |
 
-Mythos is built as a multi-repository ecosystem, separating the engine, the interface, and the site.
+## How it is built
 
-| Repository | What it is | Built with |
-| --- | --- | --- |
-| [`mythoside-core`](https://github.com/mythoside/mythoside-core) | The engine — manuscript data model, Markdown + YAML file format, file watching, and a JSON-RPC server over stdio (no network port). | Rust |
-| [`mythoside-ts`](https://github.com/mythoside/mythoside-ts) | The desktop client — the editor surface, hosting the engine as a sidecar. | Tauri · React · TypeScript |
-| [`mythoside-website`](https://github.com/mythoside/mythoside-website) | The landing page and product story. | Vite · React |
+- **Series, book, chapter.** The structure of a series is built in. You don't configure an outliner to get it.
+- **Your files are the source of truth.** Everything is Markdown and YAML you can open in any editor, back up or put under version control. A search index is planned, and it will only ever be a cache rebuilt from those files.
+- **No network port.** The engine runs as a child process of the app and speaks only over its own stdin and stdout. Nothing else on your machine can reach it.
 
-## Core philosophy
+## Pricing
 
-- **Built for fiction, not notes** — a Series → Book → Chapter hierarchy that's built in, not something you configure yourself.
-- **Contextual world-building** — type `@CharacterName` and get an instant profile card without leaving your draft.
-- **Local-first, always** — plain Markdown + YAML frontmatter is the real source of truth. Your novel isn't held hostage by a server; a local SQLite (FTS5) index for instant cross-referencing is planned as a rebuildable cache, never the source of truth.
-- **Continuity as diagnostics** — the environment treats worldbuilding with an IDE's rigour: reference a character after their death, or place them in two locations at once, and it tells you.
+Free while in development. From version 1.0, Mythos is a one-time purchase that includes a year of updates. The version you bought keeps working after that, and renewing for another year is optional. The source stays public under [FSL-1.1-ALv2](https://github.com/mythoside/mythoside-core/blob/main/LICENSE.md), so building it yourself stays free.
 
 ## Get involved
 
-Early development. Follow along, star the repositories, or jump into [Discussions](https://github.com/mythoside/mythoside-core/discussions) if you're building epic-length fiction and want a say in how this shapes up.
-
-- **Issues & feature ideas** → [Core](https://github.com/mythoside/mythoside-core/issues) · [Desktop](https://github.com/mythoside/mythoside-ts/issues)
-- **General questions** → [Discussions](https://github.com/mythoside/mythoside-core/discussions)
+- Bugs and ideas: [engine issues](https://github.com/mythoside/mythoside-core/issues) · [app issues](https://github.com/mythoside/mythoside-ts/issues)
+- Questions and feedback: [Discussions](https://github.com/mythoside/mythoside-core/discussions)
+- Before a pull request: [CONTRIBUTING.md](https://github.com/mythoside/.github/blob/main/CONTRIBUTING.md)
 
 ## Contact
 
 | Reach us about | Email |
 | --- | --- |
 | General questions | hello@mythoside.com |
-| Support & help | support@mythoside.com |
+| Support and help | support@mythoside.com |
 | Security reports | security@mythoside.com |
-| Press & media | press@mythoside.com |
+| Press and media | press@mythoside.com |
 | Careers | jobs@mythoside.com |
 | Legal | legal@mythoside.com |
-| Social & community | social@mythoside.com |
+| Social and community | social@mythoside.com |
 
-Please report security vulnerabilities privately to **security@mythoside.com** — do not open a public issue.
-
----
-<div align="center">
-  <sub>Open source software by the Mythos Team.</sub>
-</div>
+Report security vulnerabilities privately to **security@mythoside.com**, not in a public issue.
