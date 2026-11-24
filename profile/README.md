@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://mythoside.com">mythoside.com</a> · English · <a href="./README.TR.md">Türkçe</a>
+  <a href="https://mythoside.com">mythoside.com</a> · <a href="https://mythoside.com/#waitlist">Join the waitlist</a> · English · <a href="./README.TR.md">Türkçe</a>
 </p>
 
 Mythos is a desktop app for long fiction, usually a series. Books, chapters, characters, places and timeline notes live side by side as plain Markdown files with YAML frontmatter, in folders on your own disk. The app reads them together, so it knows which chapters a character appears in.
@@ -27,6 +27,8 @@ Mythos is a desktop app for long fiction, usually a series. Books, chapters, cha
 ## Pricing
 
 Free while in development. From the first release, Mythos is a one-time purchase that includes a year of updates. The version you bought keeps working after that, and renewing for another year is optional. The source stays public under [FSL-1.1-ALv2](https://github.com/mythoside/mythoside-core/blob/main/LICENSE.md), so building it yourself stays free.
+
+The first release comes to Windows and Linux, with macOS after. The price will be announced at launch, and people on the [waitlist](https://mythoside.com/#waitlist) hear first.
 
 ## Get involved
 

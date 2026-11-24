@@ -2,16 +2,20 @@
   <title id="title">Mythos, a world development environment for novelists</title>
   <desc id="desc">The Mythos mark and name beside a reference graph: a series, its books and chapters, and the characters each chapter mentions.</desc>
   <defs>
-    <mask id="writing" maskUnits="userSpaceOnUse" x="-24" y="-10" width="600" height="600">
-      <rect x="-24" y="-10" width="600" height="600" fill="#fff"/>
-      <path d="M214 248L388 262M186 298L406 320M162 348L326 370" stroke="#000" stroke-width="20" stroke-linecap="round"/>
+    <mask id="bands" maskUnits="userSpaceOnUse" x="0" y="0" width="512" height="512">
+      <rect width="512" height="512" fill="#fff"/>
+      <path d="M96 168H132M200 212H236M420 312V340M400 226V254" stroke="#000" stroke-width="16" stroke-linecap="round"/>
     </mask>
   </defs>
   <rect width="1200" height="400" rx="24" fill="#F8F6F0"/>
   <rect x="0.5" y="0.5" width="1199" height="399" rx="23.5" fill="none" stroke="#E5DFD4"/>
-<g transform="translate(64 56) scale(0.0667) translate(24 10)">
-    <polygon points="217,4 88,356 226,186 390,184 506,500 104,395 6,494 26,205 49,139" mask="url(#writing)" fill="#A35A3C" stroke="#A35A3C" stroke-width="28" stroke-linejoin="round"/>
-    <path d="M120 446L482 545M170 498L452 575" stroke="#A35A3C" stroke-width="22" stroke-linecap="round"/>
+  <!-- the shelf mark: the series is the shelf, two books stand on it and two lie in a stack -->
+  <g transform="translate(62 50) scale(0.0859)" fill="#A35A3C" mask="url(#bands)">
+    <rect x="48" y="396" width="416" height="72" rx="20"/>
+    <rect x="72" y="104" width="84" height="268" rx="18"/>
+    <rect x="176" y="148" width="84" height="224" rx="18"/>
+    <rect x="280" y="290" width="184" height="82" rx="18"/>
+    <rect x="300" y="200" width="148" height="74" rx="18" transform="rotate(-6 300 274)"/>
   </g>
   <text x="116" y="85" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="400" fill="#8A847B" text-anchor="start">github.com/mythoside</text>
   <text x="64" y="172" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="60" font-weight="500" fill="#2A2724" text-anchor="start">Mythos</text>
