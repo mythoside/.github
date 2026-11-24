@@ -1,5 +1,5 @@
 name: 💡 Feature Request
-description: Suggest an idea for MythosIDE
+description: Suggest an idea for Mythos
 labels: ["enhancement", "needs-triage"]
 body:
   - type: markdown
@@ -14,7 +14,7 @@ body:
     id: problem
     attributes:
       label: What problem does this solve?
-      description: What are you trying to do that MythosIDE doesn't support today?
+      description: What are you trying to do that Mythos doesn't support today?
       placeholder: When writing a series with 40+ characters, I can't easily see which ones haven't appeared in the last 3 chapters...
     validations:
       required: true

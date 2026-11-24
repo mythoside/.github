@@ -6,7 +6,7 @@
   <a href="https://mythoside.com">mythoside.com</a> · <a href="./README.md">English</a> · Türkçe
 </p>
 
-Mythos, uzun kurgu için, çoğunlukla bir seri yazanlar için bir masaüstü uygulaması. Kitaplar, bölümler, karakterler ve mekânlar kendi diskindeki klasörlerde, YAML frontmatter'lı düz Markdown dosyaları olarak yan yana durur. Uygulama hepsini birlikte okur; bir karakterin hangi bölümlerde geçtiğini bilir.
+Mythos, uzun kurgu için, çoğunlukla bir seri yazanlar için bir masaüstü uygulaması. Kitaplar, bölümler, karakterler, mekânlar ve zaman çizelgesi notları kendi diskindeki klasörlerde, YAML frontmatter'lı düz Markdown dosyaları olarak yan yana durur. Uygulama hepsini birlikte okur; bir karakterin hangi bölümlerde geçtiğini bilir.
 
 > **Erken geliştirme aşamasında.** Motor ve masaüstü uygulaması çalışıyor. Sıradaki iş süreklilik kontrolleri: örneğin Birinci Kitap'ta ölen bir karakterin İkinci Kitap'ta yeniden konuşmasını yakalamak.
 
@@ -26,7 +26,7 @@ Mythos, uzun kurgu için, çoğunlukla bir seri yazanlar için bir masaüstü uy
 
 ## Fiyat
 
-Geliştirme süresince ücretsiz. 1.0 sürümüyle birlikte Mythos, bir yıllık güncellemeyi içeren tek seferlik bir satın alma olacak. Satın aldığın sürüm sonrasında da çalışmaya devam eder; bir yıl daha güncelleme almak isteğe bağlı. Kaynak kodu [FSL-1.1-ALv2](https://github.com/mythoside/mythoside-core/blob/main/LICENSE.md) ile açık kalır, yani kendin derlemek ücretsiz kalır.
+Geliştirme süresince ücretsiz. İlk sürümle birlikte Mythos, bir yıllık güncellemeyi içeren tek seferlik bir satın alma olacak. Satın aldığın sürüm sonrasında da çalışmaya devam eder; bir yıl daha güncelleme almak isteğe bağlı. Kaynak kodu [FSL-1.1-ALv2](https://github.com/mythoside/mythoside-core/blob/main/LICENSE.md) ile açık kalır, yani kendin derlemek ücretsiz kalır.
 
 ## Katkıda bulun
 

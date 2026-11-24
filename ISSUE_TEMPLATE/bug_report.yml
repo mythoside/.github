@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report a bug! Since MythosIDE works
+        Thanks for taking the time to report a bug! Since Mythos works
         directly with your local files, please include as much detail as you
         can — it helps us reproduce and fix issues faster.
 
@@ -40,7 +40,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: MythosIDE version
+      label: Mythos version
       description: Found in Help → About, or your build/commit hash.
     validations:
       required: true

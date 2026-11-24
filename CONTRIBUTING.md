@@ -1,6 +1,6 @@
-# Contributing to MythosIDE
+# Contributing to Mythos
 
-Thanks for your interest in contributing! MythosIDE is early-stage and
+Thanks for your interest in contributing! Mythos is early-stage and
 maintained by a small team, so a bit of process up front saves everyone time.
 
 ## Before you write code

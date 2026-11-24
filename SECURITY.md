@@ -1,6 +1,6 @@
 # Security Policy
 
-MythosIDE reads and writes files directly on your local disk, so we take
+Mythos reads and writes files directly on your local disk, so we take
 security reports seriously — especially anything touching file handling,
 the local indexing engine, or the update mechanism.
 
@@ -21,7 +21,7 @@ credit you in the release notes.
 
 ## Supported versions
 
-While MythosIDE is in early development, only the latest released version is
+While Mythos is in early development, only the latest released version is
 supported with security fixes. This section will be updated with a formal
 support table once we reach a stable 1.0 release.
 
@@ -29,7 +29,7 @@ support table once we reach a stable 1.0 release.
 
 In scope:
 
-- The MythosIDE desktop application (this repository)
+- The Mythos desktop app ([mythoside-ts](https://github.com/mythoside/mythoside-ts)) and engine ([mythoside-core](https://github.com/mythoside/mythoside-core))
 - The local file-indexing engine and its handling of user files
 - The auto-update mechanism
 
