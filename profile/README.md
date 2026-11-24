@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/readme/hero.svg" width="100%" alt="Mythos, a world development environment for novelists: the Mythos mark beside a graph of a series, its books, chapters and the characters they mention">
+  <img src="assets/readme/hero.svg?v=2" width="100%" alt="Mythos, a world development environment for novelists: the Mythos mark beside a graph of a series, its books, chapters and the characters they mention">
 </p>
 
 <p align="center">

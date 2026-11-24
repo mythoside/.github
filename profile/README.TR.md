@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/readme/hero.svg" width="100%" alt="Mythos, romancılar için bir dünya geliştirme ortamı: Mythos işareti ve yanında bir serinin kitaplarını, bölümlerini ve bölümlerde geçen karakterleri gösteren bir grafik">
+  <img src="assets/readme/hero.svg?v=2" width="100%" alt="Mythos, romancılar için bir dünya geliştirme ortamı: Mythos işareti ve yanında bir serinin kitaplarını, bölümlerini ve bölümlerde geçen karakterleri gösteren bir grafik">
 </p>
 
 <p align="center">
